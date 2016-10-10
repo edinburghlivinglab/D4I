@@ -1,1 +1,151 @@
-[{"ID":12371082.0,"Address":"Princes Street","Date":"2016-08-09 15:46:34","Fill level":78.0},{"ID":12370969.0,"Address":"Princes Street","Date":"2016-08-09 15:37:28","Fill level":54.0},{"ID":12370940.0,"Address":"Princes Street","Date":"2016-08-09 15:32:35","Fill level":86.0},{"ID":12370931.0,"Address":"Princes Street","Date":"2016-08-09 15:32:19","Fill level":61.0},{"ID":12370895.0,"Address":"Shandwick Place","Date":"2016-08-09 15:27:16","Fill level":31.0},{"ID":12370835.0,"Address":"Shandwick Place","Date":"2016-08-09 15:25:38","Fill level":23.0},{"ID":12370992.0,"Address":"Coates Crescent","Date":"2016-08-09 15:21:17","Fill level":99.0},{"ID":12371305.0,"Address":"West Maitland Street","Date":"2016-08-09 15:16:15","Fill level":88.0},{"ID":12371189.0,"Address":"Clifton Terrace","Date":"2016-08-09 15:01:12","Fill level":55.0},{"ID":12370352.0,"Address":"80 Haymarket Terrace","Date":"2016-08-09 14:59:18","Fill level":91.0},{"ID":12371102.0,"Address":"83 Haymarket Terrace","Date":"2016-08-09 14:56:28","Fill level":80.0},{"ID":12370927.0,"Address":"20 Atholl Cresent","Date":"2016-08-09 14:45:10","Fill level":67.0},{"ID":12370899.0,"Address":"Atholl Crescent","Date":"2016-08-09 14:43:32","Fill level":92.0},{"ID":12370879.0,"Address":"Shandwick Place","Date":"2016-08-09 14:38:21","Fill level":94.0},{"ID":12370388.0,"Address":"Princes Street","Date":"2016-08-09 14:30:27","Fill level":87.0},{"ID":12369997.0,"Address":"Princes Street","Date":"2016-08-09 14:25:53","Fill level":100.0},{"ID":12370884.0,"Address":"Princes Street","Date":"2016-08-09 14:25:44","Fill level":95.0},{"ID":12370088.0,"Address":"3 Chambers Street","Date":"2016-08-09 14:18:21","Fill level":42.0},{"ID":12370302.0,"Address":"Newkirkgate","Date":"2016-08-09 14:18:15","Fill level":93.0},{"ID":12370476.0,"Address":"22 Chambers Street","Date":"2016-08-09 14:16:19","Fill level":84.0},{"ID":12370263.0,"Address":"Chambers Street","Date":"2016-08-09 14:13:56","Fill level":68.0},{"ID":12370983.0,"Address":"Cathedral Lane","Date":"2016-08-09 14:07:19","Fill level":87.0},{"ID":12370275.0,"Address":"Cathedral Lane","Date":"2016-08-09 14:06:33","Fill level":58.0},{"ID":12370041.0,"Address":"The Mound","Date":"2016-08-09 14:02:54","Fill level":37.0},{"ID":12370063.0,"Address":"The Mound","Date":"2016-08-09 13:58:57","Fill level":39.0},{"ID":12370161.0,"Address":"Mound Place","Date":"2016-08-09 13:54:31","Fill level":88.0},{"ID":12370147.0,"Address":"54 Leith Walk","Date":"2016-08-09 13:54:11","Fill level":100.0},{"ID":12370172.0,"Address":"Ramsay Lane","Date":"2016-08-09 13:53:07","Fill level":100.0},{"ID":12369991.0,"Address":"96 Leith Walk","Date":"2016-08-09 13:51:42","Fill level":95.0},{"ID":12369917.0,"Address":"210 Leith Walk","Date":"2016-08-09 13:49:04","Fill level":99.0}]
+[{
+	"ID": 12371082.0,
+	"Address": "Princes Street",
+	"Date": "2016-08-09 15:46:34",
+	"Fill level": 78.0
+}, {
+	"ID": 12370969.0,
+	"Address": "Princes Street",
+	"Date": "2016-08-09 15:37:28",
+	"Fill level": 54.0
+}, {
+	"ID": 12370940.0,
+	"Address": "Princes Street",
+	"Date": "2016-08-09 15:32:35",
+	"Fill level": 86.0
+}, {
+	"ID": 12370931.0,
+	"Address": "Princes Street",
+	"Date": "2016-08-09 15:32:19",
+	"Fill level": 61.0
+}, {
+	"ID": 12370895.0,
+	"Address": "Shandwick Place",
+	"Date": "2016-08-09 15:27:16",
+	"Fill level": 31.0
+}, {
+	"ID": 12370835.0,
+	"Address": "Shandwick Place",
+	"Date": "2016-08-09 15:25:38",
+	"Fill level": 23.0
+}, {
+	"ID": 12370992.0,
+	"Address": "Coates Crescent",
+	"Date": "2016-08-09 15:21:17",
+	"Fill level": 99.0
+}, {
+	"ID": 12371305.0,
+	"Address": "West Maitland Street",
+	"Date": "2016-08-09 15:16:15",
+	"Fill level": 88.0
+}, {
+	"ID": 12371189.0,
+	"Address": "Clifton Terrace",
+	"Date": "2016-08-09 15:01:12",
+	"Fill level": 55.0
+}, {
+	"ID": 12370352.0,
+	"Address": "80 Haymarket Terrace",
+	"Date": "2016-08-09 14:59:18",
+	"Fill level": 91.0
+}, {
+	"ID": 12371102.0,
+	"Address": "83 Haymarket Terrace",
+	"Date": "2016-08-09 14:56:28",
+	"Fill level": 80.0
+}, {
+	"ID": 12370927.0,
+	"Address": "20 Atholl Cresent",
+	"Date": "2016-08-09 14:45:10",
+	"Fill level": 67.0
+}, {
+	"ID": 12370899.0,
+	"Address": "Atholl Crescent",
+	"Date": "2016-08-09 14:43:32",
+	"Fill level": 92.0
+}, {
+	"ID": 12370879.0,
+	"Address": "Shandwick Place",
+	"Date": "2016-08-09 14:38:21",
+	"Fill level": 94.0
+}, {
+	"ID": 12370388.0,
+	"Address": "Princes Street",
+	"Date": "2016-08-09 14:30:27",
+	"Fill level": 87.0
+}, {
+	"ID": 12369997.0,
+	"Address": "Princes Street",
+	"Date": "2016-08-09 14:25:53",
+	"Fill level": 100.0
+}, {
+	"ID": 12370884.0,
+	"Address": "Princes Street",
+	"Date": "2016-08-09 14:25:44",
+	"Fill level": 95.0
+}, {
+	"ID": 12370088.0,
+	"Address": "3 Chambers Street",
+	"Date": "2016-08-09 14:18:21",
+	"Fill level": 42.0
+}, {
+	"ID": 12370302.0,
+	"Address": "Newkirkgate",
+	"Date": "2016-08-09 14:18:15",
+	"Fill level": 93.0
+}, {
+	"ID": 12370476.0,
+	"Address": "22 Chambers Street",
+	"Date": "2016-08-09 14:16:19",
+	"Fill level": 84.0
+}, {
+	"ID": 12370263.0,
+	"Address": "Chambers Street",
+	"Date": "2016-08-09 14:13:56",
+	"Fill level": 68.0
+}, {
+	"ID": 12370983.0,
+	"Address": "Cathedral Lane",
+	"Date": "2016-08-09 14:07:19",
+	"Fill level": 87.0
+}, {
+	"ID": 12370275.0,
+	"Address": "Cathedral Lane",
+	"Date": "2016-08-09 14:06:33",
+	"Fill level": 58.0
+}, {
+	"ID": 12370041.0,
+	"Address": "The Mound",
+	"Date": "2016-08-09 14:02:54",
+	"Fill level": 37.0
+}, {
+	"ID": 12370063.0,
+	"Address": "The Mound",
+	"Date": "2016-08-09 13:58:57",
+	"Fill level": 39.0
+}, {
+	"ID": 12370161.0,
+	"Address": "Mound Place",
+	"Date": "2016-08-09 13:54:31",
+	"Fill level": 88.0
+}, {
+	"ID": 12370147.0,
+	"Address": "54 Leith Walk",
+	"Date": "2016-08-09 13:54:11",
+	"Fill level": 100.0
+}, {
+	"ID": 12370172.0,
+	"Address": "Ramsay Lane",
+	"Date": "2016-08-09 13:53:07",
+	"Fill level": 100.0
+}, {
+	"ID": 12369991.0,
+	"Address": "96 Leith Walk",
+	"Date": "2016-08-09 13:51:42",
+	"Fill level": 95.0
+}, {
+	"ID": 12369917.0,
+	"Address": "210 Leith Walk",
+	"Date": "2016-08-09 13:49:04",
+	"Fill level": 99.0
+}]
