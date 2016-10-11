@@ -95,7 +95,7 @@ Small multiples &mdash; think about radar chart instead
 
 ---
 
-<h1><img src="https://edinburghlivinglab.github.io/D4I/assets/chart.png"></h1>
+<h1><img src="https://edinburghlivinglab.github.io/D4I/assets/radar.png"></h1>
 
 ---
 
