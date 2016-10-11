@@ -4,25 +4,28 @@
 
 # Overview
 
+## Useful page
+
+<div align="center">
+<a href="https://github.com/edinburghlivinglab/D4I/wiki">https://github.com/edinburghlivinglab/D4I/wiki</a>
+</div>
+
 ## Data
 
-* What is data?
-* Intro to open data
+* What is Data?
+* Intro to Open Data
 * Data formats
-
-
-## Processing Data
-
-* Programmatic approaches
-* JavaScript as a framework
 
 ## Dataviz Issues
 
 * Brief intro
 * Browser-based approaches
-* Leaflet
 
-## Starting with D3.js
+## Processing Data
+
+* Programmatic approaches
+* JavaScript
+* Starting with D3.js
 
 
 
