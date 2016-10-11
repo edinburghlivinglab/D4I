@@ -1,6 +1,7 @@
 node_modules
 reveal.js-3.3.0
 .ipynb_checkpoints
+week*
 
 docs/reveal.js/*
 !reveal.js/lib

@@ -76,7 +76,7 @@ Graphical excellence gives the viewer:
 
 ## More Examples
 
-
+<h1><img src="https://edinburghlivinglab.github.io/D4I/assets/chart2.png" style="width: 700px;"></h1>
 
 
 
