@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Ewan Klein">
+  <meta name="dcterms.date" content="2016-10-12">
+  <title>D4I: Data &amp; Dataviz</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/sky.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <style type="text/css">
+  p {
+      text-align: left;
+  }
+  
+  .reveal h1 {
+      text-transform: none;
+  }
+  
+  b {color: red;}
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">D4I: Data &amp; Dataviz</h1>
+  <h2 class="author">Ewan Klein</h2>
+  <h3 class="date">12 October 2016</h3>
+</section>
+
+<section><section id="overview" class="titleslide slide level1"><h1>Overview</h1></section><section id="useful-page" class="slide level2">
+<h1>Useful page</h1>
+<h1>
+<a href="https://github.com/edinburghlivinglab/D4I/wiki">https://github.com/edinburghlivinglab/D4I/wiki</a>
+</h1>
+</section><section id="document-object-model" class="slide level2">
+<h1>Document Object Model</h1>
+<h1>
+<img src="https://edinburghlivinglab.github.io/D4I/assets/DOM-model.svg.png">
+</h1>
+<p>Image published under <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC-BY-SA 3.0</a> by <a href="https://commons.wikimedia.org/w/index.php?title=User:Eib&amp;action=edit&amp;redlink=1"></a></p>
+</section><section id="dataviz-issues" class="slide level2">
+<h1>Dataviz Issues</h1>
+<ul>
+<li>Brief intro</li>
+<li>Browser-based approaches</li>
+</ul>
+</section><section id="processing-data" class="slide level2">
+<h1>Processing Data</h1>
+<ul>
+<li>Programmatic approaches</li>
+<li>JavaScript</li>
+<li>Starting with D3.js</li>
+</ul>
+</section></section>
+<section><section id="open-data" class="titleslide slide level1"><h1>Open Data</h1></section><section id="exercise" class="slide level2">
+<h1>Exercise</h1>
+<ul>
+<li>Work in teams</li>
+<li>Decide broadly on a kind of dataset, and on a spatial region</li>
+<li>Each team member spend about 5–10 minutes looking for open data that meets this constraints</li>
+<li>Discuss what you have found in your team — which dataset seems most interesting / useful?</li>
+</ul>
+</section></section>
+<section><section id="communicating-data" class="titleslide slide level1"><h1>Communicating Data</h1></section><section class="slide level2">
+
+<p>Ann never goes to Baristo, but goes to Starbucks 5 times a week. By contrast Bob never goes to Starbucks, but goes to Baristo twice a week. He also goes to Brew Lab 6 times a week, where Ann never goes. He goes to Dome Cafe once a week, while Ann goes there 3 times a week.</p>
+</section><section class="slide level2">
+
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"> </th>
+<th style="text-align: right;">Ann</th>
+<th style="text-align: right;">Bob</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Baristo</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Dome Cafe</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Brew Lab</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Starbucks</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+</section><section id="tufte" class="slide level2">
+<h1>Tufte</h1>
+<h1>
+<img src="https://edinburghlivinglab.github.io/dds/images/tufte.jpg" style="width: 700px;">
+</h1>
+</section><section class="slide level2">
+
+<blockquote>
+<p>Graphical excellence consists of complex ideas communicated with clarity, precision and efficiency</p>
+</blockquote>
+<p>Graphical excellence gives the viewer:</p>
+<ul>
+<li>the greatest number of ideas</li>
+<li>in the shortest time</li>
+<li>with the least ink</li>
+<li>in the smallest space</li>
+</ul>
+<p><strong>Data-ink</strong> is the non-erasible core of a graphic</p>
+</section><section id="class-exercise-handout" class="slide level2">
+<h1>Class Exercise (handout)</h1>
+</section><section id="more-examples" class="slide level2">
+<h1>More Examples</h1>
+</section><section class="slide level2">
+
+<h1>
+<img src="https://edinburghlivinglab.github.io/D4I/assets/chart2.png">
+</h1>
+</section><section class="slide level2">
+
+<h1>
+<img src="https://edinburghlivinglab.github.io/D4I/assets/chart1.png">
+</h1>
+</section><section class="slide level2">
+
+<p>NB Missing info on units in x-axis!</p>
+</section><section id="pie-charts-are-evil" class="slide level2">
+<h1>Pie charts are Evil</h1>
+<p>Small multiples — think about radar chart instead</p>
+</section><section class="slide level2">
+
+<h1>
+<img src="https://edinburghlivinglab.github.io/D4I/assets/radar.png">
+</h1>
+</section><section class="slide level2">
+
+<h1>
+<img src="https://edinburghlivinglab.github.io/D4I/assets/pie1.png">
+</h1>
+</section><section class="slide level2">
+
+<h1>
+<img src="https://edinburghlivinglab.github.io/D4I/assets/pie2.png">
+</h1>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
