@@ -84,6 +84,12 @@ Graphical excellence gives the viewer:
 
 <h1><img src="https://edinburghlivinglab.github.io/D4I/assets/chart1.png"></h1>
 
+---
+
+NB Missing info on units in x-axis!
+
+---
+
 ## Pie charts are Evil
 
 ---
