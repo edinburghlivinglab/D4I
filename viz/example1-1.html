@@ -13,8 +13,7 @@
       .enter()
       .append("li")
          .text(function (d) {
-            // we need to use the square bracket indexing to access a label with spaces 
-            return d.Address + ": " + d.Date + ": " + d["Fill level"];
+            return d.Address + " | " + d.Date + " | " + d.Fill_level;
          });
       }
 </script>

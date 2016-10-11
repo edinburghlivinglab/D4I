@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <script src="d3.js"></script>
@@ -14,11 +13,11 @@
             .enter()
             .append("li")
             .text(function(d) {
-                return d.Address + ": " + d.Date + ": " + d["Fill level"];
+                return d.Address + " | " + d.Date + " | " + d.Fill_level;
             });
         d3.selectAll("li")
             .style("font-weight", function(d) {
-                if (d["Fill level"] < 80) {
+                if (d.Fill_level < 80) {
                     return "normal;"
                 } else {
                     return "bold";
@@ -35,5 +34,4 @@
     </script>
     </script>
 </body>
-
 </html>
