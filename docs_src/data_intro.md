@@ -91,6 +91,12 @@ NB Missing info on units in x-axis!
 
 ## Pie charts are Evil
 
+Small multiples &mdash; think about radar chart instead
+
+---
+
+<h1><img src="https://edinburghlivinglab.github.io/D4I/assets/chart.png"></h1>
+
 ---
 
 <h1><img src="https://edinburghlivinglab.github.io/D4I/assets/pie1.png"></h1>
