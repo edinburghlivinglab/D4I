@@ -6,9 +6,8 @@
 
 ## Useful page
 
-<p align="center">
-<a href="https://github.com/edinburghlivinglab/D4I/wiki">https://github.com/edinburghlivinglab/D4I/wiki</a>
-</p>
+<h1><a href="https://github.com/edinburghlivinglab/D4I/wiki">https://github.com/edinburghlivinglab/D4I/wiki</a>
+</h1>
 
 ## Data
 
