@@ -76,7 +76,25 @@ Graphical excellence gives the viewer:
 
 ## More Examples
 
-<h1><img src="https://edinburghlivinglab.github.io/D4I/assets/chart2.png" style="width: 700px;"></h1>
+---
+
+<h1><img src="https://edinburghlivinglab.github.io/D4I/assets/chart2.png"></h1>
+
+---
+
+<h1><img src="https://edinburghlivinglab.github.io/D4I/assets/chart1.png"></h1>
+
+## Pie charts are Evil
+
+---
+
+<h1><img src="https://edinburghlivinglab.github.io/D4I/assets/pie1.png"></h1>
+
+---
+
+<h1><img src="https://edinburghlivinglab.github.io/D4I/assets/pie2.png"></h1>
+
+
 
 
 
