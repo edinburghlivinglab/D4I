@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+    div.chart {
+        font-family: sans-serif;
+        font-size: 0.7em;
+    }
+    
+    div.bar {
+        background-color: DarkRed;
+        color: white;
+        height: 3em;
+        line-height: 3em;
+        padding-right: 1em;
+        margin-bottom: 2px;
+        text-align: right;
+        margin-left: 22em;
+    }
+    
+    div.label {
+        height: 3em;
+        line-height: 3em;
+        padding-right: 1em;
+        margin-bottom: 2px;
+        float: left;
+        width: 20em;
+        text-align: right;
+    }
+    </style>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>
+    function draw(data) {
+        "use strict";
+
+        d3.select("body")
+            .append("div")
+            .attr("class", "chart")
+            .selectAll("div.line")
+            .data(data)
+            .enter()
+            .append("div")
+            .attr("class", "line");
+
+        d3.selectAll("div.line")
+            .append("div")
+            .attr("class", "label")
+            .text(function(d) {
+                return d.Address
+            });
+
+        d3.selectAll("div.line")
+            .append("div")
+            .attr("class", "bar")
+            .style("width", function(d) {
+                return d.Fill_level + "px"
+            })
+            .text(function(d) {
+                return d.Fill_level
+            });
+    }
+    </script>
+    <title>Example 1.5</title>
+</head>
+
+<body>
+    <script>
+    d3.json("data/binsensorsimple.json", draw);
+    </script>
+    </script>
+</body>
+
+</html>
