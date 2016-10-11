@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="d3.js"></script>
+    <script>
+    function draw(data) {
+        "use strict";
+        d3.select("body")
+            .append("div")
+            .attr("class", "chart")
+            .selectAll("bar")
+            .data(data["Fill level"])
+            .enter()
+            .append("div")
+            .attr("class", "chart")
+            .style("width", function(d) {
+                return d["Fill level"] + "px"
+            })
+            .style("outline", "1px solid black")
+            .text(function(d) {
+                    return d["Fill level"];
+            });
+    }
+    </script>
+    <title>Example 1.1</title>
+</head>
+
+<body>
+    <script>
+    d3.json("data/binsensorsimple.json", draw);
+    </script>
+    </script>
+</body>
+
+</html>
